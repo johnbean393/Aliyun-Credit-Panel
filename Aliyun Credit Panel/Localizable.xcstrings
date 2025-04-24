@@ -170,6 +170,9 @@
         }
       }
     },
+    "Quit" : {
+
+    },
     "Refresh" : {
       "localizations" : {
         "zh-Hans" : {

@@ -68,6 +68,8 @@
 		20ADCEB82DBA49C800B13C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20ADCEBA2DBA4A4F00B13C98 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		20ADCEBF2DBA4EFD00B13C98 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
+		20ADCEC12DBA59C900B13C98 /* panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panel.png; sourceTree = "<group>"; };
+		20ADCEC22DBA59DB00B13C98 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,8 @@
 		20ADCE572DBA3E1E00B13C98 = {
 			isa = PBXGroup;
 			children = (
+				20ADCEC22DBA59DB00B13C98 /* README.md */,
+				20ADCEC12DBA59C900B13C98 /* panel.png */,
 				20ADCE9A2DBA3E8200B13C98 /* Aliyun Credit Panel */,
 				20ADCEA02DBA3E8500B13C98 /* Aliyun Credit PanelTests */,
 				20ADCEA42DBA3E8600B13C98 /* Aliyun Credit PanelUITests */,
