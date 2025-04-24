@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		20ADCE722DBA3E2000B13C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20ADCE582DBA3E1E00B13C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20ADCE5F2DBA3E1E00B13C98;
+			remoteInfo = "Aliyun Credit Panel";
+		};
+		20ADCE7C2DBA3E2000B13C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20ADCE582DBA3E1E00B13C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20ADCE5F2DBA3E1E00B13C98;
+			remoteInfo = "Aliyun Credit Panel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20ADCE602DBA3E1E00B13C98 /* Aliyun Credit Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aliyun Credit Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADCE712DBA3E2000B13C98 /* Aliyun Credit PanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aliyun Credit PanelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADCE7B2DBA3E2000B13C98 /* Aliyun Credit PanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aliyun Credit PanelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aliyun Credit Panel";
+			sourceTree = "<group>";
+		};
+		20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aliyun Credit PanelTests";
+			sourceTree = "<group>";
+		};
+		20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aliyun Credit PanelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20ADCE5D2DBA3E1E00B13C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE6E2DBA3E2000B13C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE782DBA3E2000B13C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20ADCE572DBA3E1E00B13C98 = {
+			isa = PBXGroup;
+			children = (
+				20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */,
+				20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */,
+				20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */,
+				20ADCE612DBA3E1E00B13C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20ADCE612DBA3E1E00B13C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCE602DBA3E1E00B13C98 /* Aliyun Credit Panel.app */,
+				20ADCE712DBA3E2000B13C98 /* Aliyun Credit PanelTests.xctest */,
+				20ADCE7B2DBA3E2000B13C98 /* Aliyun Credit PanelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20ADCE5F2DBA3E1E00B13C98 /* Aliyun Credit Panel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ADCE852DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit Panel" */;
+			buildPhases = (
+				20ADCE5C2DBA3E1E00B13C98 /* Sources */,
+				20ADCE5D2DBA3E1E00B13C98 /* Frameworks */,
+				20ADCE5E2DBA3E1E00B13C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */,
+			);
+			name = "Aliyun Credit Panel";
+			packageProductDependencies = (
+			);
+			productName = "Aliyun Credit Panel";
+			productReference = 20ADCE602DBA3E1E00B13C98 /* Aliyun Credit Panel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20ADCE702DBA3E2000B13C98 /* Aliyun Credit PanelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ADCE882DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit PanelTests" */;
+			buildPhases = (
+				20ADCE6D2DBA3E2000B13C98 /* Sources */,
+				20ADCE6E2DBA3E2000B13C98 /* Frameworks */,
+				20ADCE6F2DBA3E2000B13C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20ADCE732DBA3E2000B13C98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */,
+			);
+			name = "Aliyun Credit PanelTests";
+			packageProductDependencies = (
+			);
+			productName = "Aliyun Credit PanelTests";
+			productReference = 20ADCE712DBA3E2000B13C98 /* Aliyun Credit PanelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20ADCE7A2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20ADCE8B2DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit PanelUITests" */;
+			buildPhases = (
+				20ADCE772DBA3E2000B13C98 /* Sources */,
+				20ADCE782DBA3E2000B13C98 /* Frameworks */,
+				20ADCE792DBA3E2000B13C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20ADCE7D2DBA3E2000B13C98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */,
+			);
+			name = "Aliyun Credit PanelUITests";
+			packageProductDependencies = (
+			);
+			productName = "Aliyun Credit PanelUITests";
+			productReference = 20ADCE7B2DBA3E2000B13C98 /* Aliyun Credit PanelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20ADCE582DBA3E1E00B13C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					20ADCE5F2DBA3E1E00B13C98 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					20ADCE702DBA3E2000B13C98 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 20ADCE5F2DBA3E1E00B13C98;
+					};
+					20ADCE7A2DBA3E2000B13C98 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 20ADCE5F2DBA3E1E00B13C98;
+					};
+				};
+			};
+			buildConfigurationList = 20ADCE5B2DBA3E1E00B13C98 /* Build configuration list for PBXProject "Aliyun Credit Panel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20ADCE572DBA3E1E00B13C98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 20ADCE612DBA3E1E00B13C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20ADCE5F2DBA3E1E00B13C98 /* Aliyun Credit Panel */,
+				20ADCE702DBA3E2000B13C98 /* Aliyun Credit PanelTests */,
+				20ADCE7A2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20ADCE5E2DBA3E1E00B13C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE6F2DBA3E2000B13C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE792DBA3E2000B13C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20ADCE5C2DBA3E1E00B13C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE6D2DBA3E2000B13C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ADCE772DBA3E2000B13C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20ADCE732DBA3E2000B13C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20ADCE5F2DBA3E1E00B13C98 /* Aliyun Credit Panel */;
+			targetProxy = 20ADCE722DBA3E2000B13C98 /* PBXContainerItemProxy */;
+		};
+		20ADCE7D2DBA3E2000B13C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20ADCE5F2DBA3E1E00B13C98 /* Aliyun Credit Panel */;
+			targetProxy = 20ADCE7C2DBA3E2000B13C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20ADCE832DBA3E2000B13C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20ADCE842DBA3E2000B13C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		20ADCE862DBA3E2000B13C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aliyun Credit Panel/Aliyun_Credit_Panel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aliyun Credit Panel/Preview Content\"";
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-Panel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		20ADCE872DBA3E2000B13C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aliyun Credit Panel/Aliyun_Credit_Panel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aliyun Credit Panel/Preview Content\"";
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-Panel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		20ADCE892DBA3E2000B13C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-PanelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliyun Credit Panel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aliyun Credit Panel";
+			};
+			name = Debug;
+		};
+		20ADCE8A2DBA3E2000B13C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-PanelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aliyun Credit Panel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aliyun Credit Panel";
+			};
+			name = Release;
+		};
+		20ADCE8C2DBA3E2000B13C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-PanelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Aliyun Credit Panel";
+			};
+			name = Debug;
+		};
+		20ADCE8D2DBA3E2000B13C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KM2C4ZAVPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-PanelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Aliyun Credit Panel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20ADCE5B2DBA3E1E00B13C98 /* Build configuration list for PBXProject "Aliyun Credit Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADCE832DBA3E2000B13C98 /* Debug */,
+				20ADCE842DBA3E2000B13C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20ADCE852DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit Panel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADCE862DBA3E2000B13C98 /* Debug */,
+				20ADCE872DBA3E2000B13C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20ADCE882DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit PanelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADCE892DBA3E2000B13C98 /* Debug */,
+				20ADCE8A2DBA3E2000B13C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20ADCE8B2DBA3E2000B13C98 /* Build configuration list for PBXNativeTarget "Aliyun Credit PanelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20ADCE8C2DBA3E2000B13C98 /* Debug */,
+				20ADCE8D2DBA3E2000B13C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20ADCE582DBA3E1E00B13C98 /* Project object */;
+}
