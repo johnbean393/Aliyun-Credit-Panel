@@ -39,12 +39,23 @@ struct ContentView: View {
             .font(.title3)
             .bold()
             Spacer()
+            quitButton
             reloadButton
             SettingsLink()
                 .labelStyle(.iconOnly)
                 .buttonStyle(.plain)
         }
         .padding(.horizontal, 7)
+    }
+    
+    var quitButton: some View {
+        Button {
+            NSApplication.shared.terminate(nil)
+        } label: {
+            Label("Quit", systemImage: "power")
+                .labelStyle(.iconOnly)
+        }
+        .buttonStyle(.plain)
     }
     
     var reloadButton: some View {
