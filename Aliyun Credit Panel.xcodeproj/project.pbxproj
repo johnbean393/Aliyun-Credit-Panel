@@ -6,6 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		20ADCE902DBA3E5E00B13C98 /* AlibabacloudBssOpenApi20171214 in Frameworks */ = {isa = PBXBuildFile; productRef = 20ADCE8F2DBA3E5E00B13C98 /* AlibabacloudBssOpenApi20171214 */; };
+		20ADCE932DBA3E7A00B13C98 /* SecureDefaults in Frameworks */ = {isa = PBXBuildFile; productRef = 20ADCE922DBA3E7A00B13C98 /* SecureDefaults */; };
+		20ADCE9B2DBA3E8200B13C98 /* Aliyun_Credit_PanelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCE972DBA3E8200B13C98 /* Aliyun_Credit_PanelApp.swift */; };
+		20ADCE9C2DBA3E8200B13C98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCE992DBA3E8200B13C98 /* ContentView.swift */; };
+		20ADCE9D2DBA3E8200B13C98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADCE942DBA3E8200B13C98 /* Preview Assets.xcassets */; };
+		20ADCE9E2DBA3E8200B13C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ADCE982DBA3E8200B13C98 /* Assets.xcassets */; };
+		20ADCEA12DBA3E8500B13C98 /* Aliyun_Credit_PanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCE9F2DBA3E8500B13C98 /* Aliyun_Credit_PanelTests.swift */; };
+		20ADCEA52DBA3E8600B13C98 /* Aliyun_Credit_PanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEA22DBA3E8600B13C98 /* Aliyun_Credit_PanelUITests.swift */; };
+		20ADCEA62DBA3E8600B13C98 /* Aliyun_Credit_PanelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEA32DBA3E8600B13C98 /* Aliyun_Credit_PanelUITestsLaunchTests.swift */; };
+		20ADCEAA2DBA3EB200B13C98 /* AliyunClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEA92DBA3EB200B13C98 /* AliyunClient.swift */; };
+		20ADCEAC2DBA3FCA00B13C98 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEAB2DBA3FCA00B13C98 /* Settings.swift */; };
+		20ADCEAF2DBA403A00B13C98 /* Extension+SecureDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEAE2DBA403A00B13C98 /* Extension+SecureDefaults.swift */; };
+		20ADCEB12DBA436F00B13C98 /* Dialogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEB02DBA436F00B13C98 /* Dialogs.swift */; };
+		20ADCEB32DBA43A800B13C98 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 20ADCEB22DBA43A800B13C98 /* Localizable.xcstrings */; };
+		20ADCEB52DBA452500B13C98 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEB42DBA452500B13C98 /* Extension+Date.swift */; };
+		20ADCEB72DBA473700B13C98 /* Extension+UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEB62DBA473700B13C98 /* Extension+UserDefaults.swift */; };
+		20ADCEB92DBA49C800B13C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEB82DBA49C800B13C98 /* AppDelegate.swift */; };
+		20ADCEBB2DBA4A4F00B13C98 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEBA2DBA4A4F00B13C98 /* SettingsView.swift */; };
+		20ADCEBE2DBA4B0000B13C98 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 20ADCEBD2DBA4B0000B13C98 /* LaunchAtLogin */; };
+		20ADCEC02DBA4EFD00B13C98 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADCEBF2DBA4EFD00B13C98 /* Extension+View.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		20ADCE722DBA3E2000B13C98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,31 +50,34 @@
 		20ADCE602DBA3E1E00B13C98 /* Aliyun Credit Panel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aliyun Credit Panel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADCE712DBA3E2000B13C98 /* Aliyun Credit PanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aliyun Credit PanelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ADCE7B2DBA3E2000B13C98 /* Aliyun Credit PanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aliyun Credit PanelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADCE942DBA3E8200B13C98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20ADCE962DBA3E8200B13C98 /* Aliyun_Credit_Panel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aliyun_Credit_Panel.entitlements; sourceTree = "<group>"; };
+		20ADCE972DBA3E8200B13C98 /* Aliyun_Credit_PanelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliyun_Credit_PanelApp.swift; sourceTree = "<group>"; };
+		20ADCE982DBA3E8200B13C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20ADCE992DBA3E8200B13C98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		20ADCE9F2DBA3E8500B13C98 /* Aliyun_Credit_PanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliyun_Credit_PanelTests.swift; sourceTree = "<group>"; };
+		20ADCEA22DBA3E8600B13C98 /* Aliyun_Credit_PanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliyun_Credit_PanelUITests.swift; sourceTree = "<group>"; };
+		20ADCEA32DBA3E8600B13C98 /* Aliyun_Credit_PanelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aliyun_Credit_PanelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20ADCEA92DBA3EB200B13C98 /* AliyunClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunClient.swift; sourceTree = "<group>"; };
+		20ADCEAB2DBA3FCA00B13C98 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		20ADCEAE2DBA403A00B13C98 /* Extension+SecureDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+SecureDefaults.swift"; sourceTree = "<group>"; };
+		20ADCEB02DBA436F00B13C98 /* Dialogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dialogs.swift; sourceTree = "<group>"; };
+		20ADCEB22DBA43A800B13C98 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		20ADCEB42DBA452500B13C98 /* Extension+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
+		20ADCEB62DBA473700B13C98 /* Extension+UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UserDefaults.swift"; sourceTree = "<group>"; };
+		20ADCEB82DBA49C800B13C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20ADCEBA2DBA4A4F00B13C98 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		20ADCEBF2DBA4EFD00B13C98 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Aliyun Credit Panel";
-			sourceTree = "<group>";
-		};
-		20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Aliyun Credit PanelTests";
-			sourceTree = "<group>";
-		};
-		20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Aliyun Credit PanelUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		20ADCE5D2DBA3E1E00B13C98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADCEBE2DBA4B0000B13C98 /* LaunchAtLogin in Frameworks */,
+				20ADCE902DBA3E5E00B13C98 /* AlibabacloudBssOpenApi20171214 in Frameworks */,
+				20ADCE932DBA3E7A00B13C98 /* SecureDefaults in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +101,9 @@
 		20ADCE572DBA3E1E00B13C98 = {
 			isa = PBXGroup;
 			children = (
-				20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */,
-				20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */,
-				20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */,
+				20ADCE9A2DBA3E8200B13C98 /* Aliyun Credit Panel */,
+				20ADCEA02DBA3E8500B13C98 /* Aliyun Credit PanelTests */,
+				20ADCEA42DBA3E8600B13C98 /* Aliyun Credit PanelUITests */,
 				20ADCE612DBA3E1E00B13C98 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +116,77 @@
 				20ADCE7B2DBA3E2000B13C98 /* Aliyun Credit PanelUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		20ADCE952DBA3E8200B13C98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCE942DBA3E8200B13C98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20ADCE9A2DBA3E8200B13C98 /* Aliyun Credit Panel */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCEB22DBA43A800B13C98 /* Localizable.xcstrings */,
+				20ADCE972DBA3E8200B13C98 /* Aliyun_Credit_PanelApp.swift */,
+				20ADCEB82DBA49C800B13C98 /* AppDelegate.swift */,
+				20ADCEA72DBA3E9D00B13C98 /* Views */,
+				20ADCEA82DBA3EA400B13C98 /* Logic */,
+				20ADCEAD2DBA402400B13C98 /* Extensions */,
+				20ADCE982DBA3E8200B13C98 /* Assets.xcassets */,
+				20ADCE962DBA3E8200B13C98 /* Aliyun_Credit_Panel.entitlements */,
+				20ADCE952DBA3E8200B13C98 /* Preview Content */,
+			);
+			path = "Aliyun Credit Panel";
+			sourceTree = "<group>";
+		};
+		20ADCEA02DBA3E8500B13C98 /* Aliyun Credit PanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCE9F2DBA3E8500B13C98 /* Aliyun_Credit_PanelTests.swift */,
+			);
+			path = "Aliyun Credit PanelTests";
+			sourceTree = "<group>";
+		};
+		20ADCEA42DBA3E8600B13C98 /* Aliyun Credit PanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCEA22DBA3E8600B13C98 /* Aliyun_Credit_PanelUITests.swift */,
+				20ADCEA32DBA3E8600B13C98 /* Aliyun_Credit_PanelUITestsLaunchTests.swift */,
+			);
+			path = "Aliyun Credit PanelUITests";
+			sourceTree = "<group>";
+		};
+		20ADCEA72DBA3E9D00B13C98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCE992DBA3E8200B13C98 /* ContentView.swift */,
+				20ADCEBA2DBA4A4F00B13C98 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20ADCEA82DBA3EA400B13C98 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCEA92DBA3EB200B13C98 /* AliyunClient.swift */,
+				20ADCEAB2DBA3FCA00B13C98 /* Settings.swift */,
+				20ADCEB02DBA436F00B13C98 /* Dialogs.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		20ADCEAD2DBA402400B13C98 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				20ADCEAE2DBA403A00B13C98 /* Extension+SecureDefaults.swift */,
+				20ADCEB42DBA452500B13C98 /* Extension+Date.swift */,
+				20ADCEB62DBA473700B13C98 /* Extension+UserDefaults.swift */,
+				20ADCEBF2DBA4EFD00B13C98 /* Extension+View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,11 +204,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				20ADCE622DBA3E1E00B13C98 /* Aliyun Credit Panel */,
-			);
 			name = "Aliyun Credit Panel";
 			packageProductDependencies = (
+				20ADCE8F2DBA3E5E00B13C98 /* AlibabacloudBssOpenApi20171214 */,
+				20ADCE922DBA3E7A00B13C98 /* SecureDefaults */,
+				20ADCEBD2DBA4B0000B13C98 /* LaunchAtLogin */,
 			);
 			productName = "Aliyun Credit Panel";
 			productReference = 20ADCE602DBA3E1E00B13C98 /* Aliyun Credit Panel.app */;
@@ -129,9 +226,6 @@
 			);
 			dependencies = (
 				20ADCE732DBA3E2000B13C98 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				20ADCE742DBA3E2000B13C98 /* Aliyun Credit PanelTests */,
 			);
 			name = "Aliyun Credit PanelTests";
 			packageProductDependencies = (
@@ -152,9 +246,6 @@
 			);
 			dependencies = (
 				20ADCE7D2DBA3E2000B13C98 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				20ADCE7E2DBA3E2000B13C98 /* Aliyun Credit PanelUITests */,
 			);
 			name = "Aliyun Credit PanelUITests";
 			packageProductDependencies = (
@@ -192,9 +283,15 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 20ADCE572DBA3E1E00B13C98;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				20ADCE8E2DBA3E5E00B13C98 /* XCRemoteSwiftPackageReference "bssopenapi-20171214" */,
+				20ADCE912DBA3E7A00B13C98 /* XCRemoteSwiftPackageReference "SecureDefaults" */,
+				20ADCEBC2DBA4B0000B13C98 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 20ADCE612DBA3E1E00B13C98 /* Products */;
 			projectDirPath = "";
@@ -212,6 +309,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADCE9D2DBA3E8200B13C98 /* Preview Assets.xcassets in Resources */,
+				20ADCE9E2DBA3E8200B13C98 /* Assets.xcassets in Resources */,
+				20ADCEB32DBA43A800B13C98 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +336,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADCE9B2DBA3E8200B13C98 /* Aliyun_Credit_PanelApp.swift in Sources */,
+				20ADCEAA2DBA3EB200B13C98 /* AliyunClient.swift in Sources */,
+				20ADCEAC2DBA3FCA00B13C98 /* Settings.swift in Sources */,
+				20ADCEB92DBA49C800B13C98 /* AppDelegate.swift in Sources */,
+				20ADCEC02DBA4EFD00B13C98 /* Extension+View.swift in Sources */,
+				20ADCEB52DBA452500B13C98 /* Extension+Date.swift in Sources */,
+				20ADCEBB2DBA4A4F00B13C98 /* SettingsView.swift in Sources */,
+				20ADCEAF2DBA403A00B13C98 /* Extension+SecureDefaults.swift in Sources */,
+				20ADCE9C2DBA3E8200B13C98 /* ContentView.swift in Sources */,
+				20ADCEB72DBA473700B13C98 /* Extension+UserDefaults.swift in Sources */,
+				20ADCEB12DBA436F00B13C98 /* Dialogs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADCEA12DBA3E8500B13C98 /* Aliyun_Credit_PanelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20ADCEA52DBA3E8600B13C98 /* Aliyun_Credit_PanelUITests.swift in Sources */,
+				20ADCEA62DBA3E8600B13C98 /* Aliyun_Credit_PanelUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +442,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -384,6 +499,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -401,11 +517,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-Panel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,11 +546,13 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pattonium.Aliyun-Credit-Panel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -549,6 +669,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20ADCE8E2DBA3E5E00B13C98 /* XCRemoteSwiftPackageReference "bssopenapi-20171214" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alibabacloud-sdk-swift/bssopenapi-20171214/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		20ADCE912DBA3E7A00B13C98 /* XCRemoteSwiftPackageReference "SecureDefaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vpeschenkov/SecureDefaults";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.2;
+			};
+		};
+		20ADCEBC2DBA4B0000B13C98 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin-Modern";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20ADCE8F2DBA3E5E00B13C98 /* AlibabacloudBssOpenApi20171214 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20ADCE8E2DBA3E5E00B13C98 /* XCRemoteSwiftPackageReference "bssopenapi-20171214" */;
+			productName = AlibabacloudBssOpenApi20171214;
+		};
+		20ADCE922DBA3E7A00B13C98 /* SecureDefaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20ADCE912DBA3E7A00B13C98 /* XCRemoteSwiftPackageReference "SecureDefaults" */;
+			productName = SecureDefaults;
+		};
+		20ADCEBD2DBA4B0000B13C98 /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20ADCEBC2DBA4B0000B13C98 /* XCRemoteSwiftPackageReference "LaunchAtLogin-Modern" */;
+			productName = LaunchAtLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20ADCE582DBA3E1E00B13C98 /* Project object */;
 }

@@ -1,0 +1,132 @@
+{
+  "originHash" : "c45c776eb659c216c70fde53d0ba1fedb8afb7c48eccb1bd089e650a309de52f",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "alibabacloud-gateway-spi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/alibabacloud-gateway-spi",
+      "state" : {
+        "revision" : "dbb5692a997bf223e09eeb7d512648ee1de0f031",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "bssopenapi-20171214",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/bssopenapi-20171214/",
+      "state" : {
+        "revision" : "7637246523696fd4a502807ad48424a70c82660b",
+        "version" : "4.0.0"
+      }
+    },
+    {
+      "identity" : "credentials-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aliyun/credentials-swift",
+      "state" : {
+        "revision" : "c6ca7e06b25edb58f33437971091cfaf5412d72d",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "729e01bc9b9dab466ac85f21fb9ee2bc1c61b258",
+        "version" : "1.8.4"
+      }
+    },
+    {
+      "identity" : "darabonba-openapi",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/darabonba-openapi",
+      "state" : {
+        "revision" : "a8b0143f83db11f86d250b87016d324862669647",
+        "version" : "1.0.7"
+      }
+    },
+    {
+      "identity" : "endpoint-util",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/endpoint-util",
+      "state" : {
+        "revision" : "ac1d85012515312e51f8e69a942b386ebeca7204",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "launchatlogin-modern",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sindresorhus/LaunchAtLogin-Modern",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a04ec1c363be3627734f6dad757d82f5d4fa8fcc"
+      }
+    },
+    {
+      "identity" : "openapi-util",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/openapi-util",
+      "state" : {
+        "revision" : "2068e853fca2685d129b1b860f924f6fe0f23e12",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "securedefaults",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vpeschenkov/SecureDefaults",
+      "state" : {
+        "revision" : "3f9d5d19f7401250791840bff857ed5f6b8c8ddf",
+        "version" : "1.2.2"
+      }
+    },
+    {
+      "identity" : "swxmlhash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/drmohundro/SWXMLHash.git",
+      "state" : {
+        "revision" : "a853604c9e9a83ad9954c7e3d2a565273982471f",
+        "version" : "7.0.2"
+      }
+    },
+    {
+      "identity" : "tea-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aliyun/tea-swift.git",
+      "state" : {
+        "revision" : "a5bba9447809d568e49b1bd6547deaa635ca28f0",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "tea-utils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/tea-utils",
+      "state" : {
+        "revision" : "42c179856e81778b570b3924a86415c7b2dfc8e8",
+        "version" : "1.0.6"
+      }
+    },
+    {
+      "identity" : "tea-xml",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alibabacloud-sdk-swift/tea-xml",
+      "state" : {
+        "revision" : "262349226549e0d19848b55f3fed84d0923ef126",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
